@@ -92,7 +92,7 @@ Gamepad Triggers
   Gamepad input setup uses a separate mapping file for each hardware gamepad type. See below for more information.
 
 Touch Triggers
-: Multi-touch type triggers are available on iOS and Android devices. They populate a table in the action table called `touch`. The elements in the table are integer-indexed with numbers `1`--`N`where `N` is the number of touch points. Each element of the table contains fields with input data:
+: Multi-touch type triggers are available on iOS and Android devices. They populate a table in the action table called `touch`. The elements in the table are integer-indexed with numbers `1`--`N` where `N` is the number of touch points. Each element of the table contains fields with input data:
 
   ```lua
   -- Spawn at each touch point
